@@ -1,0 +1,15 @@
+#!/usr/local/opt/python@2/bin/python2.7
+# -*- mode: python -*-
+"""
+    Dude - framework for experiments
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    :copyright: Copyright (c) 2010,2011 Diogo Becker
+    :license: MIT, see LICENSE for details.
+"""
+
+import sys
+
+if __name__ == '__main__':
+    import dude
+    sys.exit(dude.cmdline.main(sys.argv[1:]))

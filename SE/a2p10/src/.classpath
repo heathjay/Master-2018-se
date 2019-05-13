@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 7 [1.7.0_80]"/>
+	<classpathentry kind="lib" path="/Users/chengpengjiang/Documents/assignment/未命名文件夹/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/chengpengjiang/Documents/assignment/未命名文件夹/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="/Users/chengpengjiang/Documents/assignment/未命名文件夹/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/chengpengjiang/Documents/assignment/未命名文件夹/hadoop-client-2.7.1.jar"/>
+	<classpathentry kind="lib" path="/Users/chengpengjiang/Documents/assignment/未命名文件夹/hadoop-common-2.7.1.jar"/>
+	<classpathentry kind="lib" path="/Users/chengpengjiang/Documents/assignment/未命名文件夹/hadoop-hdfs-2.7.1.jar"/>
+	<classpathentry kind="lib" path="/Users/chengpengjiang/Documents/assignment/未命名文件夹/hadoop-mapreduce-client-core-2.7.1.jar"/>
+	<classpathentry kind="lib" path="/Users/chengpengjiang/Documents/assignment/未命名文件夹/job.jar"/>
+	<classpathentry kind="lib" path="/Users/chengpengjiang/Documents/assignment/未命名文件夹/slf4j-api-1.8.0-beta2.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

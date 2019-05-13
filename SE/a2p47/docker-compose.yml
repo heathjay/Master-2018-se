@@ -1,0 +1,30 @@
+version: '2'
+services:
+  server:
+    build: ./Container1/
+    container_name: server
+    ports:
+      - 11211:11211
+      - 7777:7777
+    networks:
+      testing_net:
+        ipv4_address: 192.168.0.3
+
+    tty: true
+
+  client:
+    build: ./Container2/
+    container_name: client
+    ports:
+      - 10022:10022
+    networks:
+      testing_net: 
+        ipv4_address: 192.168.0.4
+    tty: true
+
+networks:
+  testing_net:
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.0.0/16
